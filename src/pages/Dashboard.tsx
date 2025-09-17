@@ -44,7 +44,7 @@ const Dashboard: React.FC = () => {
       <div className="bg-gradient-to-r from-primary/10 to-success/10 rounded-lg p-6">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-3xl font-bold mb-2">Welcome back, John!</h1>
+            <h1 className="text-3xl font-bold mb-2">Welcome back, Dickson Mugerwa!</h1>
             <p className="text-muted-foreground">Your farms are 85% healthy today</p>
           </div>
           <div className="text-right">
