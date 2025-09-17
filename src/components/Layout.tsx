@@ -25,7 +25,10 @@ const Layout: React.FC = () => {
   const navItems = [
     { path: '/dashboard', label: 'Dashboard', icon: 'fa-home' },
     { path: '/scan', label: 'AI Scan', icon: 'fa-camera' },
-    { path: '/market', label: 'Market Prices', icon: 'fa-chart-line' },
+    { path: '/weather', label: 'Weather', icon: 'fa-cloud-sun' },
+    { path: '/pest-map', label: 'Pest Map', icon: 'fa-map' },
+    { path: '/market', label: 'Market', icon: 'fa-chart-line' },
+    { path: '/ai-advisor', label: 'AI Chat', icon: 'fa-robot' },
     { path: '/community', label: 'Community', icon: 'fa-users' },
     { path: '/reports', label: 'Reports', icon: 'fa-file-alt' },
   ];

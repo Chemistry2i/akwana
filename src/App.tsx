@@ -7,7 +7,10 @@ import Layout from "./components/Layout";
 import Landing from "./pages/Landing";
 import Dashboard from "./pages/Dashboard";
 import Scan from "./pages/Scan";
+import Weather from "./pages/Weather";
+import PestMap from "./pages/PestMap";
 import Market from "./pages/Market";
+import AIAdvisor from "./pages/AIAdvisor";
 import Community from "./pages/Community";
 import Reports from "./pages/Reports";
 import NotFound from "./pages/NotFound";
@@ -25,7 +28,10 @@ const App = () => (
           <Route element={<Layout />}>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/scan" element={<Scan />} />
+            <Route path="/weather" element={<Weather />} />
+            <Route path="/pest-map" element={<PestMap />} />
             <Route path="/market" element={<Market />} />
+            <Route path="/ai-advisor" element={<AIAdvisor />} />
             <Route path="/community" element={<Community />} />
             <Route path="/reports" element={<Reports />} />
           </Route>
