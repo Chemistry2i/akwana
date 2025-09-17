@@ -62,7 +62,7 @@ const Landing: React.FC = () => {
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center justify-center bg-success/10 rounded-full px-4 py-2 mb-6">
               <i className="fas fa-award text-success mr-2"></i>
-              <span className="text-sm font-medium text-success">Hackathon Winner 2024</span>
+              <span className="text-sm font-medium text-success">Hackathon Winner 2025</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-success bg-clip-text text-transparent">
